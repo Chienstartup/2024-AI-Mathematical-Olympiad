@@ -1,1 +1,1 @@
-# AIMO_2024
+# AI Mathematical Olympiad
