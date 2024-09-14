@@ -51,11 +51,11 @@
   Scenarios where maintaining most of the original model's knowledge is necessary.
 
 
-  <h1> Method 2: QLoRA, Low-Rank Adaptation</h1>
+<h1> Method 2: QLoRA, Low-Rank Adaptation</h1>
 
   QLoRA technology: this method combines the advantages of quantization (reduced memory usage) with the efficiency of LoRA (parameter-efficient fine-tuning), enabling effective fine-tuning of large language models with limited resources.
 
-## Explanation of LoRA vs IA3
+  ### Explanation of LoRA vs IA3
 
   Following code uses the LoRA (Low-Rank Adaptation) technique, which differs from the previously discussed IA3 (Infused Adapter by Inhibiting and Amplifying Inner Activations).
 
@@ -76,7 +76,7 @@
   In summary, this code sets up a PEFT configuration using LoRA technology for a causal language modeling task, primarily adjusting the projection matrices in the attention mechanism. Compared to IA3, LoRA offers a different approach to parameter-efficient fine-tuning, potentially performing better or being easier to adjust for certain tasks.
 
 
-  <h1> Method 3: p-Tuning</h1>
+<h1> Method 3: p-Tuning</h1>
 
   P-tuning is a parameter-efficient fine-tuning technique specifically designed for large language models. Here are the main features and working principles of P-tuning:
 
